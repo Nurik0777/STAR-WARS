@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    background: url('https://www.komar.de/en/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/w/b/wb-sw-018-30x40_mandalorian_pop_art_stormtrooper_web.jpg') center /cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+}
+
+
+.logo{
+    background: url('https://o.remove.bg/downloads/ab4f3205-fca5-4348-a11b-c276c4d5f7da/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-removebg-preview.png') center / cover;
+    width: 170px;
+    height: 100px;
+}
+
+
+
+.button{
+    margin-top: 45px;
+    margin-right: 100px;
+}
+
+
+.persons{
+    padding: 7px;
+    background-color: #71B5A6;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    margin-right: 50px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.planets{
+    padding: 7px;
+    background-color: #71B5A6;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    margin-right: 50px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.starships{
+    padding: 7px;
+    background-color: #71B5A6;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    margin-right: 50px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* main */
+
+
+
+
+.main_block{
+    margin-top: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.block{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+
+}
+
+.card_body{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    width: 190px;
+    padding: 10px;
+    height: 190px;
+    margin: 10px;
+}
+
+.card_body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, transparent,#abbd0891);
+    width: 100%;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.card_body h3{
+    font-size: 18px;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: bolder;
+    background-color: black;
+    padding: 3px;
+    border-radius: 10px;
+}
+.card_body h4{
+    padding-top: 5px;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card_body2{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    width: 190px;
+    padding: 10px;
+    height: 190px;
+    margin: 10px;
+}
+
+.card_body2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, transparent,#15088db0);
+    width: 100%;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.card_body2 h3{
+    font-size: 18px;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: bolder;
+    background-color: black;
+    padding: 3px;
+    border-radius: 10px;
+}
+.card_body2 h4{
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card_body3{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    width: 190px;
+    padding: 10px;
+    height: 190px;
+    margin: 10px;
+}
+
+.card_body3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, transparent,#089b0fb0);
+    width: 100%;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.card_body3 h3{
+    font-size: 18px;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: bolder;
+    background-color: black;
+    padding: 3px;
+    border-radius: 10px;
+}
+.card_body3 h4{
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1310px) {
+    .main{
+        background: black;
+        height: 610vh;
+    }
+}
+
+
+
+
+@media (max-width:664px) {
+    .button{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    .persons{
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .starships{
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .planets{
+        margin-left: 20px;
+        margin-right: 0; 
+    }
+}
+
+
+
+
+
+@media (max-width:464px) {
+    .button{
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+    .persons{
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    .starships{
+        margin-right: 0;
+        margin-left: 5px;
+    }
+    .planets{
+        margin-left: 5px;
+        margin-right: 0; 
+    }
+}
+
+
+
+
+@media (max-width:406px) {
+    .button{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
